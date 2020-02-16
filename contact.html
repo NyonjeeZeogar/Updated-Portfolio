@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Responsive Portfolio</title>
+</head>
+
+<body>
+    <div id="Header">
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <a href="#" class="navbar-brand">
+                    <h3>Nyonjee Zeogar</h3>
+                </a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="Contact">
+        <div class="container-contact mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="contact_head">
+                        <h1>Contact</h1>
+                    </div>
+                    <br>
+                    <form action="action_page.php">
+
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="Name" placeholder="John Smith">
+
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer">
+                    <div class="inner-footer">
+                        <div class="copyright">
+                            <p>Copyright ©</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
